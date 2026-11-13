@@ -29,6 +29,9 @@ public class Controller {
                 default:
                     System.out.println("Acest flow nu exista.");
             }
+            if (response.equals("exit")) {
+                break; //iesire din bucla
+            }
         }
     }
 
